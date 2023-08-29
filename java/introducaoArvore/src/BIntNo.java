@@ -4,5 +4,4 @@ public class BIntNo {
     BIntNo(int newValue){
         value = newValue;
     }
-
 }

@@ -1,7 +1,5 @@
 public class BinaryTree {
-
     private BIntNo root;
-
     private BIntNo insert(BIntNo tree, int newValue) {
         if (tree == null) {
             return new BIntNo(newValue);
@@ -14,8 +12,6 @@ public class BinaryTree {
         }
         return tree;
     }
-
-
 
     private void showLeft(BIntNo tree) {
         if (tree != null) {
