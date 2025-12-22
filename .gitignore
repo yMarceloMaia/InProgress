@@ -1,0 +1,115 @@
+############################
+# Sistema operacional
+############################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.nfs*
+
+############################
+# IDEs / Editores
+############################
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+############################
+# Logs
+############################
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Java
+############################
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+bin/
+hs_err_pid*
+
+############################
+# PHP
+############################
+vendor/
+composer.lock
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+.env
+.env.*
+phpunit.xml
+
+############################
+# C / C++
+############################
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.so
+*.dll
+*.a
+*.lib
+*.dSYM/
+build/
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+dist/
+build/
+
+############################
+# Node / TypeScript / JS
+############################
+node_modules/
+dist/
+build/
+.cache/
+.eslintcache
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+############################
+# Testes
+############################
+coverage/
+.nyc_output/
+
+############################
+# Temporários
+############################
+tmp/
+temp/
+.cache/
+
+############################
+# Secrets (segurança)
+############################
+.env
+.env.local
+.env.*.local
